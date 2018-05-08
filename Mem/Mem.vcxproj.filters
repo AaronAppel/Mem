@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{2b0a9fb0-82c2-48a5-a62b-574a4c829066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{9c4a0db5-4ea4-456b-981a-69d747e65a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Testing">
+      <UniqueIdentifier>{48451a72-19d5-4224-bf0a-7f48a3dee1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Allocators">
+      <UniqueIdentifier>{b45eaf62-2d69-4356-8bae-ce0fe6eeba4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{601b965c-767a-4dbb-95d7-2f2bdfc2ece2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\glew">
+      <UniqueIdentifier>{11f77dd9-d969-4345-a9e2-d893c4833f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\glfw">
+      <UniqueIdentifier>{1c71b65f-3c0c-46f0-bf0c-6aae12b5e18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\imGUI">
+      <UniqueIdentifier>{70984c74-d38f-44b6-8186-90f31af0419b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\MyImGUI">
+      <UniqueIdentifier>{789725f6-d750-4701-80b8-f21a6c8325ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\MyGLFW">
+      <UniqueIdentifier>{43ea227a-3656-475b-baa0-c85430a684d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestUtils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestSuite1.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemFlagBlock.cpp">
+      <Filter>Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemBlock.cpp">
+      <Filter>Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemStackAllocator.cpp">
+      <Filter>Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemSmrtPtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestClasses.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemBasicBlock.cpp">
+      <Filter>Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemPoolAllocator.cpp">
+      <Filter>Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mem1FrameStackAllocator.cpp">
+      <Filter>Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mem2FrameStackAllocator.cpp">
+      <Filter>Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imgui_node_graph_test.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imguidock.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imguifilesystem.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imguinodegrapheditor.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imguistring.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imguitabwindow.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imgui.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imgui_demo.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imgui_draw.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imGUI\imgui_impl_glfw_gl3.cpp">
+      <Filter>Libraries\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\MyImGUI\ImGUIWindow.cpp">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\MyImGUI\MyImGUI.cpp">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\MyImGUI\NodeGraph.cpp">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\MyImGUI\ImGUIStyles.cpp">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\MyGLFW\CallBackFunctions.cpp">
+      <Filter>Libraries\MyGLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\MyGLFW\MyGLFW.cpp">
+      <Filter>Libraries\MyGLFW</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\TestUtils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestSuite1.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemFlagBlock.h">
+      <Filter>Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemBlock.h">
+      <Filter>Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemStackAllocator.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemSmrtPtr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestClasses.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemBasicBlock.h">
+      <Filter>Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MemPoolAllocator.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mem1FrameStackAllocator.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mem2FrameStackAllocator.h">
+      <Filter>Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\glew\include\GL\glew.h">
+      <Filter>Libraries\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\glew\include\GL\glxew.h">
+      <Filter>Libraries\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\glew\include\GL\wglew.h">
+      <Filter>Libraries\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\glew\include\GL\eglew.h">
+      <Filter>Libraries\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\glfw\include\GLFW\glfw3.h">
+      <Filter>Libraries\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\glfw\include\GLFW\glfw3native.h">
+      <Filter>Libraries\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imguidock.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imguifilesystem.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imguinodegrapheditor.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imguistring.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imguitabwindow.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imigui_memory_editor.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\stb_rect_pack.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\stb_textedit.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\stb_truetype.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\dirent_portable.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imconfig.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imgui.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imgui_impl_glfw_gl3.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imGUI\imgui_internal.h">
+      <Filter>Libraries\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\MyImGUI\ImGUIWindow.h">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\MyImGUI\MyImGUI.h">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\MyImGUI\NodeGraph.h">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\MyImGUI\IconsFontAwesome.h">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\MyImGUI\ImGUIStyles.h">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\MyImGUI\ImGuiUtils.h">
+      <Filter>Libraries\MyImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utilities\MathHelpers.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utilities\Vector.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\MyGLFW\MyGLFW.h">
+      <Filter>Libraries\MyGLFW</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
