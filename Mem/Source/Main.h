@@ -6,12 +6,20 @@
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 
-// system libraries
+// System libraries
 #include <iostream>
 
-#include "MyGLFW\MyGLFW.h"
-#include "MyImGUI.h"
+// External libraries
+#include "../Libraries/glew/include/GL/glew.h"
+#include "../Libraries/glfw/include/GLFW/glfw3.h"
+#include "../Libraries/MyGLFW/MyGLFW.h"
+#include "../Libraries/MyImGUI/MyImGUI.h"
 
+// #define LibraryDir "Libraries/"
+// #pragma comment( lib, LibraryDir "glew/glew32d.lib" )
+// #pragma comment( lib, LibraryDir "glfw/glfw3.lib" )
+
+// Defines
 #if 1
 #define _MemTest
 #include "Mem.h"

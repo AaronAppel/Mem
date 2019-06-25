@@ -1,12 +1,54 @@
 #include "Main.h"
 
+#include <bitset>
+
 void PrintMainMenu();
 void PrintTestMenu();
 
 void RunTest();
 
+void TempShiftReference() // For reference
+{
+	unsigned char a = 5, b = 9; // a = 5(00000101), b = 9(00001001)
+	printf("a = %d, b = %d\n", a, b);
+	printf("a&b = %d\n", a&b); // The result is 00000001
+	printf("a|b = %d\n", a | b);  // The result is 00001101
+	printf("a^b = %d\n", a^b); // The result is 00001100
+	printf("~a = %d\n", a = ~a);   // The result is 11111010
+	printf("b<<1 = %d\n", b << 1);  // The result is 00010010
+	printf("b>>1 = %d\n", b >> 1);  // The result is 00000100
+
+	//
+	unsigned char c = 1;
+	printf("c = %d\n", c);
+	c |= 00000001;
+	printf("c = %d\n", c);
+}
+
+void Loop()
+{
+	// Toggle at location
+	unsigned char block = 0;
+	int userChoice = -1;
+	do
+	{
+		std::cin >> userChoice;
+		block ^= 1 << userChoice;
+
+		std::cout << std::bitset<8>(block) << std::endl;
+
+		if (block > 254)
+		{
+			std::cout << "block is full" << std::endl;
+		}
+
+	} while (userChoice < 8); // quit?
+}
+
 int main()
 {
+	Loop();
+
 #ifdef _MemTest
 	// MemStartUp(4, 10);
 #endif // _MemTest
@@ -80,7 +122,7 @@ void PrintMainMenu()
 
 void PrintTestMenu()
 {
-   std::cout << "--Testing--" << std::endl;
+   std::cout << "\n--Testing--" << std::endl;
    std::cout << "1. Test case" << std::endl;
    std::cout << "2. Reset" << std::endl;
    std::cout << "3. Clear Screen" << std::endl;

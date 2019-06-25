@@ -12,10 +12,14 @@
 #include <assert.h>
 #include <iostream>
 #define MyAssert assert
+#define LibraryDir "Libraries/"
 
 // OpenGL extensions
-#include "GL/glew.h"
-#include "GLFW/glfw3.h"
+#include "glew/include/GL/glew.h"
+#pragma comment( lib, LibraryDir "glew/glew32.lib" )
+
+#include "glfw/include/GLFW/glfw3.h"
+#pragma comment( lib, LibraryDir "glfw/glfw3.lib" )
 
 #include <math.h>
 #include "../Utilities/MathHelpers.h"
